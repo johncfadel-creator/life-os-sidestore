@@ -1,0 +1,30 @@
+{
+  "name": "Life OS",
+  "identifier": "com.charbel.lifeos.source",
+  "subtitle": "Mon OS perso : salle, journée, IA.",
+  "iconURL": "https://raw.githubusercontent.com/johncfadel-creator/life-os-sidestore/main/icon.png",
+  "tintColor": "9B8CFF",
+  "apps": [
+    {
+      "name": "Life OS",
+      "bundleIdentifier": "com.charbel.lifeos",
+      "developerName": "Life OS",
+      "subtitle": "Aujourd’hui, Gym, Life et IA.",
+      "localizedDescription": "App perso native SwiftUI (iOS 26.1+, design Liquid Glass) : météo et trajet vélo/bus, habitudes, logger de muscu avec chrono et Live Activity, Apple Santé, Google (agenda, mails, Drive, Photos) et IA (Apple Intelligence, Gemini).",
+      "iconURL": "https://raw.githubusercontent.com/johncfadel-creator/life-os-sidestore/main/icon.png",
+      "tintColor": "9B8CFF",
+      "category": "lifestyle",
+      "appPermissions": {
+        "entitlements": ["com.apple.developer.healthkit"],
+        "privacy": {
+          "NSHealthShareUsageDescription": "Lire tes séances de basket pour calculer ta fatigue.",
+          "NSHealthUpdateUsageDescription": "Enregistrer tes séances de muscu dans Apple Santé.",
+          "NSLocationWhenInUseUsageDescription": "Météo et conseil vélo ou bus là où tu es.",
+          "NSCameraUsageDescription": "Capturer des notes et photos."
+        }
+      },
+      "versions": []
+    }
+  ],
+  "news": []
+}
