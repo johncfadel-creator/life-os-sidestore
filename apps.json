@@ -15,7 +15,9 @@
       "tintColor": "9B8CFF",
       "category": "lifestyle",
       "appPermissions": {
-        "entitlements": ["com.apple.developer.healthkit"],
+        "entitlements": [
+          "com.apple.developer.healthkit"
+        ],
         "privacy": {
           "NSHealthShareUsageDescription": "Lire tes séances de basket pour calculer ta fatigue.",
           "NSHealthUpdateUsageDescription": "Enregistrer tes séances de muscu dans Apple Santé.",
@@ -23,7 +25,17 @@
           "NSCameraUsageDescription": "Capturer des notes et photos."
         }
       },
-      "versions": []
+      "versions": [
+        {
+          "version": "2.0.2",
+          "buildVersion": "2",
+          "date": "2026-11-01",
+          "localizedDescription": "• Première version native SwiftUI (Liquid Glass) : Aujourd’hui, Gym avec chrono et Live Activity, Life (Google), IA (Apple Intelligence + Gemini)",
+          "downloadURL": "https://github.com/johncfadel-creator/life-os-sidestore/releases/download/v2.0.2/LifeOS-2.0.2.ipa",
+          "size": 1211805,
+          "minOSVersion": "26.1"
+        }
+      ]
     }
   ],
   "news": []
